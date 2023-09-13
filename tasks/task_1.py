@@ -2,11 +2,11 @@
 # а также определить максимальный и минимальный элементы.
 numbers: list = [17, 6.06534, 91, 52, 87, 340, 56]
 
-sum_numbers: list = sum(numbers) # Функцией sum() я сложил все элементы списка
-max_numbers: list = max(numbers) # Функцией max() я узнал максимальный элемент списка
-min_numbers: list = min(numbers) # Функцией min() я узнал минимальный элемент списка
+# Неправильная аннотация типа у переменных
+sum_numbers: list = sum(numbers)
+max_numbers: list = max(numbers)
+min_numbers: list = min(numbers)
 
 print('Сумма элементов списка:', sum_numbers)
 print('Максимальный элемент списка:', max_numbers)
 print('Минимальный элемент списка:', min_numbers)
-# TODO: Пожалуйста, добавьте свой код ниже с комментариями и понятными названиями переменных.

@@ -6,4 +6,3 @@ student_info: dict = {"name": "Анна", "age": 20, "group_number": "А101"}
 keys_set: set = set(student_info)
 
 print(keys_set)
-# Очень легко сделал но не очень понятно почему сет получает только ключи

@@ -1,7 +1,8 @@
 # Нужно поменять местами первый и последний элементы этого списка
 colors: list = ["Red", "Green", "White", "Black", "Pink", "Yellow"]
 
-colors[0]: list = "Yellow"
-colors[-1]: list = "Red"
+# Неправильно, места надо менять, а не писать вручную
+colors[0]: str = "Yellow"
+colors[-1]: str = "Red"
 
 print(colors)
