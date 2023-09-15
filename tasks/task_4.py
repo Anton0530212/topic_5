@@ -2,6 +2,6 @@
 # выводит список всех уникальных символов
 line: str = input('Введите строку: ')
 
-qwerty: set = set(line)  # Нужно дать переменной понятное название
+unique_line: set = set(line)
 
-print(list(qwerty))  # Вывод не соответствует ожидаемому
+print(list(unique_line))  # Вывод не соответствует ожидаемому
